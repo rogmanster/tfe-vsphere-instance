@@ -6,3 +6,4 @@ variable "datastore_name" {}
 variable "template" {}
 variable "cpu" {}
 variable "mem" {}
+variable "tags" { list(string)}
