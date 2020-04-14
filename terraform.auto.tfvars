@@ -9,4 +9,4 @@ mem = "1024"
 ipv4_addr = "10.100.0.88"
 ipv4_mask = "24"
 ipv4_gw = "10.100.0.1"
-tags = ["rchao-vsphere-linux", "dev"]
+tags = "rchao-vsphere-linux-dev"
