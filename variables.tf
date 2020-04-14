@@ -6,4 +6,6 @@ variable "datastore_name" {}
 variable "template" {}
 variable "cpu" {}
 variable "mem" {}
-variable "tags" { list(string)}
+variable "ipv4_addr" {}
+variable "ipv4_mask" {}
+variable "ipv4_gw" {}
