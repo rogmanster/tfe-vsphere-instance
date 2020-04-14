@@ -1,0 +1,8 @@
+name = "rchao"
+dc = "PacketDatacenter"
+cluster_name = "MainCluster"
+datastore_name = "DataStore"
+network = "VM Network"
+template = "UbuntuTemplate"
+cpu = "2"
+mem = "1024"
