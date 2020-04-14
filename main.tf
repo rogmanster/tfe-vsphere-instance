@@ -59,11 +59,11 @@ resource "vsphere_virtual_machine" "vm" {
       }
 
       network_interface {
-        ipv4_address = "var.ipv4_addr"
-        ipv4_netmask = "var.ipv4_mask"
+        ipv4_address = var.ipv4_addr
+        ipv4_netmask = var.ipv4_mask
       }
 
-      ipv4_gateway = "var.ipv4_gw"
+      ipv4_gateway = var.ipv4_gw
     }
   }
 }
