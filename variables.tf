@@ -9,3 +9,4 @@ variable "mem" {}
 variable "ipv4_addr" {}
 variable "ipv4_mask" {}
 variable "ipv4_gw" {}
+variable "tags" {type = list(string)}

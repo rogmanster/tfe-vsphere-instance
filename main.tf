@@ -66,4 +66,6 @@ resource "vsphere_virtual_machine" "vm" {
       ipv4_gateway = var.ipv4_gw
     }
   }
+
+  tags = [ vsphere_tag.tag.id ]
 }
